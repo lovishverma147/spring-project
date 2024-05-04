@@ -10,4 +10,9 @@ class FirstController {
     fun getMessage(): String {
         return "Hello World!"
     }
+
+    @GetMapping("/new")
+    fun getNewMessage(): String {
+        return "Hello Render!"
+    }
 }
